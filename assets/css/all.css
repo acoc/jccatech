@@ -504,7 +504,6 @@ screen\8 {
 .jc-application-threecont p {
   line-height: 32px;
   font-size: 16px;
-<<<<<<< HEAD
   white-space: normal;
 }
 
@@ -513,10 +512,6 @@ screen\8 {
 .jc-application-twocont p,
 .jc-application-threecont p .jc-join-modulecont p {
   font-family: "SimHei";
-=======
-  font-family: "SimHei";
-  white-space: normal;
->>>>>>> origin/gh-pages
 }
 
 .jc-servicecont {
