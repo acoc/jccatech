@@ -152,7 +152,7 @@ img {
   height: 372px;
   position: absolute;
   top: 20%;
-  left: 20%;
+  left: 10%;
 }
 
 .jc-banner02-text {
@@ -166,7 +166,7 @@ img {
 .jc-banner03-text {
   width: 384px;
   height: 106px;
-  left: 20%;
+  left: 10%;
   top: 20%;
   display: block;
   position: absolute;
