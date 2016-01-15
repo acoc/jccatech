@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: "Microsoft YaHei";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body,
@@ -55,10 +55,13 @@ img {
 .jc-pro-patrol-row ul li,
 .jc-about-list li,
 .jc-application-one ul,
-.jc-about-contlist ul,
 .jc-application-twocont ul,
 .jc-application-threecont ul,
 .jc-about-contlist ul li {
+  margin-left: 34px;
+}
+
+.jc-about-contlist ul {
   margin-left: 20px;
 }
 
@@ -130,17 +133,31 @@ img {
   margin-top: 4px;
 }
 
+.jc-subbanner-inner {
+  height: 370px;
+  margin-top: 4px;
+}
+
+.jc-subbanner {
+  margin: 0px auto 20px;
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+  zoom: 1;
+}
+
 .jc-banner01-text {
   width: 162px;
   height: 372px;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 20%;
 }
 
 .jc-banner02-text {
-  width: 228px;
-  height: 121px;
+  width: 121px;
+  height: 228px;
   position: absolute;
   left: 50%;
   top: 10%;
@@ -149,8 +166,8 @@ img {
 .jc-banner03-text {
   width: 384px;
   height: 106px;
-  left: 10%;
-  top: 10%;
+  left: 20%;
+  top: 20%;
   display: block;
   position: absolute;
 }
@@ -479,6 +496,7 @@ screen\8 {
 .jc-date li {
   list-style: initial;
   margin: 20px 0;
+  font-family: "Microsoft YaHei";
 }
 
 
@@ -486,6 +504,10 @@ screen\8 {
 
 .jc-main .jc-maindel {
   position: relative;
+}
+
+.jc-pro-patrol-text {
+  margin-top: 24px;
 }
 
 .jc-main .jc-maindel h2,
@@ -501,7 +523,8 @@ screen\8 {
 .jc-main .jc-maindel p,
 .jc-about p,
 .jc-application-twocont p,
-.jc-application-threecont p {
+.jc-application-threecont p,
+.jc-about-liststyle {
   line-height: 32px;
   font-size: 16px;
   white-space: normal;
@@ -510,20 +533,23 @@ screen\8 {
 .jc-main .jc-maindel p,
 .jc-about p,
 .jc-application-twocont p,
-.jc-application-threecont p .jc-join-modulecont p {
+.jc-application-threecont p .jc-join-modulecont p,
+.jc-about-liststyle,
+.jc-application-threecont p,
+.jc-join-modulecont p,
+.jc-servicecont,
+.jc-application-title,
+.jc-about-title {
   font-family: "SimHei";
 }
 
-.jc-servicecont {
-  font-family: "SimHei";
+.jc-about-liststyle {
+  margin-bottom: 0!important;
+  text-indent: 34px;
 }
 
 .jc-main .jc-maindel p {
   margin-top: 10px;
-}
-
-.jc-about p {
-  margin-bottom: 20px;
 }
 
 .jc-pro-patrol-row {
@@ -585,7 +611,6 @@ screen\8 {
   font-size: 18px;
   margin: 20px 0 10px;
   display: inline-block;
-  font-family: "SimHei";
   font-weight: bold;
 }
 
@@ -661,7 +686,7 @@ screen\8 {
   overflow: hidden;
 }
 
-.jc-about ul li {
+.jc-about-top li {
   float: left;
 }
 
@@ -689,6 +714,9 @@ screen\8 {
 .jc-about-section05 {
   font-size: 18px;
   color: #1e4283;
+  margin-top: 24px;
+  display: block;
+  font-family: simhei;
 }
 
 .jc-about-lineheight {
