@@ -3,12 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>中航嘉诚</title>
+  <title>中航嘉诚-值得信赖的IT服务管家</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="description" content="中航嘉城科技股份有限公司立足于计算机信息系统科技领域，着眼于IT服务、软件开发、战备运营业务、系统集成等业务，专注于信息系统服务方向，实现 国家利益与企业价值的长足发展。
 ">
   <meta name="keywords" content="IT服务、软件开发、IT运营运维、系统集成、信息系统服务、铁路行业信息化、石油行业信息化、电信运营商、流通行业信息化">
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen">
+  <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
+  <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+  <![endif]-->
 </head>
 
 <body>
@@ -39,39 +45,28 @@
   </div>
   <!-- jc-navbar  end-->
   <!-- jc-banner  start-->
-  <div class="jc-banner-inner">
-    <!-- 轮播广告 -->
-    <div id="jc_banner_tabs" class="jc_flexslider">
-      <ul class="jc_slides">
-        <li>
-          <span class="jc-banner01-text"><img src="assets/images/jc_banner01_text.png" height="162" width="372" alt=""></span>
-          <a title="" target="_blank" href="about.html">
-            <img width="1920" height="464" alt="" style="background: url(assets/images/jc_banner01.png) no-repeat center; background-size: cover;" src="assets/images/alpha.png">
-          </a>
-        </li>
-        <li>
-          <span class="jc-banner02-text"><img src="assets/images/jc_banner02_text.png" height="121" width="228" alt=""></span>
-          <a title="" href="product.html">
-            <img width="1920" height="464" alt="" style="background: url(assets/images/jc_banner02.png) no-repeat center;background-size: cover;" src="assets/images/alpha.png">
-          </a>
-        </li>
-        <li>
-          <span class="jc-banner03-text"><img src="assets/images/jc_banner03_text.png" height="106" width="384" alt=""></span>
-          <a title="" href="application.html">
-            <img width="1920" height="464" alt="" style="background: url(assets/images/jc_banner03.png) no-repeat center;background-size: cover;" src="assets/images/alpha.png">
-          </a>
-        </li>
-      </ul>
-      <ul class="flex-direction-nav">
-        <li><a class="flex-prev" href="javascript:;">Previous</a></li>
-        <li><a class="flex-next" href="javascript:;">Next</a></li>
-      </ul>
-      <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
-        <li><a>1</a></li>
-        <li><a>2</a></li>
-        <li><a>2</a></li>
-      </ol>
+  <div id="main_ad" class="carousel slide" data-ride="carousel">
+    <!-- 下面的小点点，活动指示器 -->
+    <ol class="carousel-indicators">
+      <li data-target="#main_ad" data-slide-to="0" class="active"></li>
+      <li data-target="#main_ad" data-slide-to="1"></li>
+      <li data-target="#main_ad" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播项 -->
+    <div class="carousel-inner" role="listbox">
+      <a href="about.html" class="item active" data-image-lg="assets/images/slide_01_1920x463.jpg" data-image-xs="assets/images/slide_01_1548x421.jpg"></a>
+      <a href="product.html" class="item" data-image-lg="assets/images/slide_02_1920x463.jpg" data-image-xs="assets/images/slide_02_1548x421.jpg"></a>
+      <a href="application.html" class="item" data-image-lg="assets/images/slide_03_1920x463.jpg" data-image-xs="assets/images/slide_03_1548x421.jpg"></a>
     </div>
+    <!-- 控制按钮 -->
+    <a class="left carousel-control" href="#main_ad" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">上一页</span>
+    </a>
+    <a class="right carousel-control" href="#main_ad" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">下一页</span>
+    </a>
   </div>
   <!-- jc-banner  end-->
   <!-- jc-summary start-->
@@ -79,11 +74,11 @@
     <a href="application.html" class="jc-summary jc-summary-img1">
       <span class="jc-summary-bar">解决方案与应用</span>
     </a>
-    <a href="product.html" class="jc-summary jc-summary-img2">
-      <span class="jc-summary-bar">巡修作业应用平台</span>
-    </a>
-    <a href="product.html" class="jc-summary jc-summary-img3">
+    <a href="product_railway.html" class="jc-summary jc-summary-img3">
       <span class="jc-summary-bar">铁路信号集中网管平台</span>
+    </a>
+    <a href="product_patrol_repair.html" class="jc-summary jc-summary-img2">
+      <span class="jc-summary-bar">巡修作业应用平台</span>
     </a>
     <a href="service.html" class="jc-summary jc-summary-img4">
       <span class="jc-summary-bar">支持与服务能力</span>
@@ -104,27 +99,10 @@
       <p>公司地址：北京市海淀区高粱桥斜街59号中坤大厦1018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© Copyright 北京中航嘉城科技股份有限公司 京ICP备13025395号</p>
     </div>
   </div>
-  <script src="assets/js/jquery-1.10.2.min.js"></script>
-  <script src="assets/js/slider.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      var bannerSlider = new Slider($('#jc_banner_tabs'), {
-        time: 5000,
-        delay: 400,
-        event: 'hover',
-        auto: true,
-        mode: 'fade',
-        controller: $('#bannerCtrl'),
-        activeControllerCls: 'active'
-      });
-      $('#jc_banner_tabs .flex-prev').click(function() {
-        bannerSlider.prev()
-      });
-      $('#jc_banner_tabs .flex-next').click(function() {
-        bannerSlider.next()
-      });
-    })
-  </script>
+  <!-- /脚注区域 -->
+  <script src="assets/lib/jquery/jquery.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
