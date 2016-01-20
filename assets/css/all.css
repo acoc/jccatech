@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: SimHei;
 }
 
 body,
@@ -89,11 +89,16 @@ img {
 }
 
 .jc-navbar-container {
-  width: 1038px;
+  width: 1065px;
   margin: 0 auto;
   padding-top: 26px;
   overflow: hidden;
-  padding-bottom: 10px;
+}
+
+.jc-navbar-container ul {
+  overflow: hidden;
+  /*height: 22px;*/
+  margin-bottom: 14px;
 }
 
 .jc-navbar-container .jc-logo {
@@ -101,6 +106,8 @@ img {
   height: 52px;
   float: left;
   margin-right: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .jc-navbar-container li {
@@ -108,6 +115,7 @@ img {
   text-align: center;
   border-right: 1px solid #000;
   margin-top: 26px;
+  margin-bottom: 0;
 }
 
 .jc-navbar-container li:last-child {
@@ -116,7 +124,7 @@ img {
 
 .jc-navbar-container li a {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   padding: 0 24px;
 }
@@ -336,10 +344,6 @@ screen\8 {
   margin: 0 30px;
 }
 
-.jc-footer a:hover {
-  color: #12387c;
-}
-
 .jc-footer-container {
   text-align: center;
   color: #fff;
@@ -440,10 +444,6 @@ screen\8 {
   color: #000;
 }
 
-.jc-proitem-text:hover {
-  color: #194fb0;
-}
-
 .jc-proitem-text span {
   font-size: 18px;
   font-weight: bold;
@@ -493,6 +493,11 @@ screen\8 {
   font-family: "Microsoft YaHei";
 }
 
+.jc-footer {
+  ist-style: initial;
+  font-family: "Microsoft YaHei";
+}
+
 
 /*product_patrol_repair*/
 
@@ -524,7 +529,8 @@ screen\8 {
   white-space: normal;
 }
 
-.jc-main .jc-maindel p,
+
+/*.jc-main .jc-maindel p,
 .jc-about p,
 .jc-application-twocont p,
 .jc-application-threecont p .jc-join-modulecont p,
@@ -533,9 +539,11 @@ screen\8 {
 .jc-join-modulecont p,
 .jc-servicecont,
 .jc-application-title,
-.jc-about-title {
+.jc-about-title,
+.jc-navbar {
   font-family: "SimHei";
 }
+*/
 
 .jc-about-liststyle {
   margin-bottom: 0!important;
@@ -593,10 +601,12 @@ screen\8 {
   text-align: center;
 }
 
-.jc-application-item-inner li span {
+.jc-application-item-inner li a {
   margin-top: 10px;
   display: inline-block;
   font-weight: bold;
+  color: #000;
+  text-decoration: none;
 }
 
 .jc-application-title,
@@ -705,13 +715,15 @@ screen\8 {
   text-align: center;
 }
 
-.jc-about-section05 {
+
+/*.jc-about-section05 {
   font-size: 18px;
   color: #1e4283;
   margin-top: 24px;
   display: block;
   font-family: simhei;
 }
+*/
 
 .jc-about-lineheight {
   margin-top: 10px;
@@ -743,6 +755,7 @@ screen\8 {
   padding-top: 90px;
   float: left;
   text-align: center;
+  font-size: 16px;
 }
 
 .jc-contact-text h3 {
